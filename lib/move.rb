@@ -16,4 +16,4 @@ def move(array, index, player = "X")
   array[index] = player
 end
 
-move (board, 0, "X")
+move(board, 0, "X")
