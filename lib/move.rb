@@ -14,7 +14,6 @@ end
 board = [" ", " ", " "]
 def move(array, index, player = "X")
   array[index] = player
-  board = ["X", " ", " "]
 end
 
 move(board, 0, "X")
