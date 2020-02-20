@@ -12,5 +12,6 @@ def input_to_index(input)
 end
 
 def move(index)
-
+  index = index - 1
+  display_board(index)
 end
